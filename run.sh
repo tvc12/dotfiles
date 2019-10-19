@@ -48,6 +48,7 @@ function install_flutter {
 function install_zsh_base {
 	echo 'install zsh base'
 	sudo apt install -y zsh
+	sudo apt-get install fonts-powerline
 	sudo chsh -s $(which zsh)
 	yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 	git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
