@@ -1,7 +1,7 @@
 #!/bin/bash
 
 swapoff -a
-sudo fallocate -l 16G /swapfile
+sudo fallocate -l 2G /swapfile
 sudo mkswap -L swap /swapfile
 sudo swapon /swapfile
 swapon -a
