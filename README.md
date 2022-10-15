@@ -3,20 +3,11 @@ Awesome dot file for [me](https://github.com/tvc12)
 
 ### 👓 Basic install
 
-👉 Choice your option in file `run.sh`
-
-🏃 Grant execution for `run.sh`
+🏃 Copy the below text, paste one into your terminal and drink a cup of coffee ☕️.
 
 ```bash
-chmod u+x run.sh
+yes | /bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/tvc12/dotfiles/master/run.sh)"
 ```
-
-👉 Finally, run script
-
-```bash
-./run.sh
-```
-
 
 ### 💪 Create swap partition
 
@@ -28,16 +19,10 @@ chmod u+x run.sh
 sudo fallocate -l 16G /swapfile
 ```
 
-🏃 Grant execution for `create_swap.sh`
+🏃 Copy the below text, paste one into your terminal and drink a cup of coffee ☕️.
 
 ```bash
-chmod u+x create_swap.sh
-```
-
-👉 Run script
-
-``` bash
-./create_swap.sh
+yes | /bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/tvc12/dotfiles/master/create_swap.sh)"
 ```
 
 ### 🤝 Contributor
